@@ -1,0 +1,7 @@
+.container{
+	@apply border border-solid w-[50em] rounded-xl flex flex-col justify-center items-center p-4 mt-10 text-white shadow-lg
+}
+
+.image{
+	@apply w-72 rounded-lg 
+}

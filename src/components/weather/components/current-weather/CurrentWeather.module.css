@@ -1,0 +1,28 @@
+.weather {
+	@apply border-[6px] shadow-2xl bg-transparent m-4 p-2 text-white rounded-xl w-96
+}
+
+.top{
+	@apply flex flex-row justify-around items-center p-2
+}
+
+.city{
+	@apply text-xl m-0 space-x-1 flex items-center justify-center flex-col
+}
+.description{
+	@apply text-sm m-0 flex items-center justify-center
+}
+.temperature{
+	@apply text-[40px] font-bold	
+}
+.weather_icon{
+	@apply w-[100px]
+}
+
+.details{
+	@apply m-1
+}
+.parameter_row{
+	@apply flex justify-between
+}
+

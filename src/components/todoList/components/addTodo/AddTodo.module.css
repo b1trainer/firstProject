@@ -1,0 +1,15 @@
+.form {
+  @apply border-4 rounded-full border-solid p-2 mx-4 bg-white flex justify-between space-x-4 mt-6 w-full;
+}
+
+.label {
+  @apply border border-solid rounded-full p-2;
+}
+
+.input {
+  @apply border border-solid w-full rounded-full p-2;
+}
+
+.button {
+  @apply border border-solid rounded-full p-2 hover:bg-green-600 transition-all duration-300 ;
+}

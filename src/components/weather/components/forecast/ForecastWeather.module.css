@@ -1,0 +1,17 @@
+.dailyItem{
+	@apply border-[3px] border-solid border-white rounded-2xl m-2 p-2 text-white font-semibold shadow-2xl
+}
+
+.daily{
+	@apply flex flex-row items-center justify-between
+}
+.icon_small{
+	@apply w-[35px]
+}
+
+.dayDetails {
+	@apply pt-2 flex flex-col 
+}
+.dayDetailsItem{
+	@apply flex justify-between
+}

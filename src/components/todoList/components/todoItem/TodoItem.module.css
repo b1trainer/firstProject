@@ -1,0 +1,10 @@
+.item {
+  @apply border-4 border-solid rounded-3xl p-2 m-2 bg-white bg-opacity-20 flex text-white transition-all duration-500;
+}
+.item_done {
+  @apply border-4 border-solid rounded-3xl p-2 m-2 bg-white bg-opacity-20 flex text-white border-green-600 transition-all duration-500;
+}
+
+.delete_button{
+	@apply m-2 bg-red-500 rounded-3xl text-black w-6 h-6 flex items-center justify-center font-semibold mx-4
+}

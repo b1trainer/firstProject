@@ -1,0 +1,10 @@
+.container{
+	@apply m-2 w-[50em] flex flex-col justify-center
+}
+
+.search{
+	@apply p-2
+}
+.current{
+	@apply flex justify-center
+}
