@@ -10,39 +10,42 @@ import Weather from "./components/weather/Weather";
 import Layout from "./components/layout/Layout";
 import HomePage from "./components/home/HomePage";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: (
-      <Layout>
-        <HomePage />
-      </Layout>
-    ),
-    errorElement: <div>Error</div>,
-  },
-  {
-    path: "/todo",
-    element: (
-      <Layout>
-        <TodoPage />
-      </Layout>
-    ),
-    errorElement: <div>Error</div>,
-  },
-  {
-    path: "/weather",
-    element: (
-      <Layout>
-        <Weather />
-      </Layout>
-    ),
-    errorElement: <div>Error</div>,
-  },
-  {
-    path: "*",
-    element: <Layout>Error</Layout>,
-  },
-]);
+const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: (
+        <Layout>
+          <HomePage />
+        </Layout>
+      ),
+      errorElement: <div>Error</div>,
+    },
+    {
+      path: "/todo",
+      element: (
+        <Layout>
+          <TodoPage />
+        </Layout>
+      ),
+      errorElement: <div>Error</div>,
+    },
+    {
+      path: "/weather",
+      element: (
+        <Layout>
+          <Weather />
+        </Layout>
+      ),
+      errorElement: <div>Error</div>,
+    },
+    {
+      path: "*",
+      element: <Layout>Error</Layout>,
+    },
+  ],
+  { basename: "/" }
+);
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={store}>
